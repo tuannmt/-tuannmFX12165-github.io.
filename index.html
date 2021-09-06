@@ -31,8 +31,12 @@
     </nav>
 
     <header id="header">
-        <div class="col-md-12 col-lg-12">
-            <img src="Images/homes/home.jpg" alt="Dong Chau Beach">
+        <div class="col-md-12 col-lg-12 header-image">
+            <img class="mySlides" src="Images/homes/home1.jpg">
+            <img class="mySlides" src="Images/homes/home2.jpg">
+            <img class="mySlides" src="Images/homes/home3.jpg">
+            <button class="prev" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="next" onclick="plusDivs(1)">&#10095;</button>
         </div>
         <div class="header-text" >
             <h1>KHU DU LỊCH BIỂN ĐỒNG CHÂU</h1>
@@ -176,5 +180,25 @@
             </div>
         </div>
     </div>
+
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+        showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        if (n > x.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = x.length}
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+        }
+        x[slideIndex-1].style.display = "block";  
+        }
+    </script>
 </body>
 </html>
