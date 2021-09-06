@@ -1,0 +1,40 @@
+#blog-content {
+    padding-bottom: 80px;
+}
+
+#blog-content h1, h2, h3 {
+    color: rgb(75, 75, 75);
+}
+
+#blog-content img {
+    width: 100%;
+    margin: auto;
+}
+
+#blog-content .title {
+    padding-top: 90px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(75, 75, 75);
+    text-align: center;
+}
+
+.blog-infor {
+    padding: 50px 0px 20px;
+    line-height: 1.5;
+} 
+
+.blog-content-sub_title p  {
+    padding: 20px 0px 0px;
+    line-height: 1.5;
+}
+
+.blog-content-sub_title p em {
+    color: red;
+    text-decoration: underline;
+}
+
+.blog-content-sub_title p span {
+    font-style: italic;
+    text-decoration: underline;
+}
+

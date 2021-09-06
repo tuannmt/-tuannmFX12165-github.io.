@@ -1,0 +1,30 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+} 
+
+a {
+  text-decoration: none;
+}
+
+a, a:visited, a:hover, a:active {
+  color: inherit;
+}
+
+.row:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.nav-social a { 
+  padding: 0px 4px;
+  font-size: 16px
+}
