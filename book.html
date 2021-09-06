@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/tablet.css">
+    <link rel="stylesheet" href="css/desktop.css">
+    <link rel="stylesheet" href="/fonts/fontawesome-free-5.15.4-web/css/all.css">
+    <link rel="stylesheet" href="/css/book.css">
+    <title>Thai Binh Travel</title>
+</head>
+<body>
+    <nav class="navbar">
+        <a class="navbar-Logo" href="contact.html">
+            Thái Bình Travel
+        </a>
+        <div class="navbar-link">
+            <ul class="navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tour.html">Tour</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <span class="nav-social">
+                <a class="fab fa-facebook" href="https://www.facebook.com/groups/halotravel"></a>
+                <a class="fab fa-instagram" href="https://www.instagram.com/explore/tags/travel/"></a>
+            </span>
+        </div>
+    </nav>
+
+    <div id="book-content" >
+        <h2>Thông Tin Đặt Vé</h2>
+        <form action="#">
+            <div class="row">
+                <div class="col-md-6 col-lg-6">
+                    <label for="full_name"><i class="fa fa-user"></i> Full Name</label>
+                    <input type="text" id="full_name" name="firstname" placeholder="Nguyễn Văn A">
+                </div>
+
+                <div class="col-md-6 col-lg-6">
+                    <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                    <input type="text" id="email" name="email" placeholder="MrA@gmail.com">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 col-lg-6">
+                    <label for="address"><i class="fas fa-map-marker-alt"></i> Address</label>
+                    <input type="text" id="address" name="address" placeholder="99 Nguyễn Chí Thanh">
+                </div>
+
+                <div class="col-md-6 col-lg-6">
+                    <label for="city"><i class="fas fa-city"></i> City</label>
+                    <input type="text" id="city" name="city" placeholder="Hà Nội">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 col-lg-6">
+                    <label for="room_number"><i class="fas fa-house-user"></i> Phòng</label>
+                    <select type="date" id="room_number" name="room_number">   
+                        <option value="2">Phòng 02</option>
+                        <option value="1">Phòng 01</option>
+                        <option value="3">Phòng 03</option>
+                        <option value="4">Phòng 04</option>
+                        <option value="5">Phòng 05</option>
+                    </select>
+                </div>
+
+                <div class="col-md-6 col-lg-6">
+                    <label for="check-in_date"><i class="far fa-calendar-minus"></i> Ngày Nhận Phòng</label>
+                    <input type="date" id="check-in_date" name="check-in_date">   
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 col-lg-12">
+                    <label for="number_of_nights"><i class="fas fa-moon"></i> Số Đêm</label>
+                    <select name="number_of_nights" id="number_of_nights">
+                        <option value="1">01 Đêm</option>
+                        <option value="2">02 Đêm</option>
+                        <option value="3">03 Đêm</option>
+                        <option value="4">04 Đêm</option>
+                        <option value="5">05 Đêm</option>
+                    </select>
+                </div>
+            </div>
+              
+            <input type="submit" value="Đặt Vé" class="btn">
+      </form>
+    </div>
+</body>
+</html>

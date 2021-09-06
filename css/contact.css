@@ -1,0 +1,51 @@
+
+#contact-content .title {
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 30px;
+    color: rgb(75, 75, 75);
+}
+
+
+.contact-data {
+    /* background-color: #40aef0; */
+} 
+
+
+input[type=text],
+input[type=date],
+input[type=email],
+input[type=submit],
+textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.btn {
+    margin-left: 0px;
+    background-color: #fda634;
+}
+
+
+.btn:hover {
+    background-color: #40aef0;
+}
+
+.left-contact-content {
+    background-color: white;
+    /* height: 364px; */
+}
+
+.right-contact-content {
+    padding: 10px;
+    background-color: #40aef0;
+    height: 364px;
+}
+
+
+.right-contact-content p{
+    padding: 10px 0px;
+}

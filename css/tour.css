@@ -1,0 +1,37 @@
+#tour-content {
+    padding-bottom: 80px;
+}
+
+#tour-content .title {
+    padding-top: 90px;
+    padding-bottom: 20px;
+    /* border-bottom: 1px solid black; */
+    text-align: center;
+}
+
+#tour-content h1, h2, h3 {
+    color: rgb(75, 75, 75);
+}
+
+#tour-content .title p {
+    padding: 10px 0px;
+    font-size: 12px;
+}
+
+#tour-content .tour-detail-content p {
+    padding: 10px 0px;
+    text-align: justify;
+}
+
+#tour-content .tour-detail-content ul {
+    padding-left: 40px;
+}
+
+.tour-day_1-content {
+    padding: 50px 0px;
+}
+
+.tour-detail-content img {
+    width: 100%;
+    margin: auto;
+}
